@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(215, 215, 215);
+}
+
+.row1, .row2 , .row3 , .row4 , .row5 , .row6 , .row7{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.rowend{
+    padding-top: 30px;
+    gap: 30px;
+}
+

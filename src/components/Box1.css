@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.Compo4{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Compo4 h1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.Compo4 .wrap{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Compo4 .wrap .b1{
+    display: flex;
+    gap: 30px;
+}
